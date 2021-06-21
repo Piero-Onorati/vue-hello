@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: ghostwhite;
+
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.color{
+    color:#34495e;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    border-radius:50% ;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.shadow{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.shadow:hover{
+    box-shadow: #41b883 0px 20px 30px -10px;
+
+}
+
